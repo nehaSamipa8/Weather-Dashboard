@@ -6,7 +6,7 @@ function WeatherDashboard() {
   const [search, setSearch] = useState('');
 
   async function fetchWeather(city) {
-    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=YOUR_API_KEY`);
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=30dafdc4cf9438c3e8babd4e9cba477e`);
     return response.json();
   }
 
